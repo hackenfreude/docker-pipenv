@@ -1,7 +1,10 @@
 ARG PYTHON_VERSION=3.7.0-stretch
 
+ARG PIPENV_VERSION=2018.7.1
+
 FROM python:$PYTHON_VERSION
 
-RUN pip install pipenv
+RUN pip install pipenv==${PIPENV_VERSION}
 
 CMD ["bash"]
+
