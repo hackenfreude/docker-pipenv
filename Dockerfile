@@ -1,4 +1,4 @@
-ARG PYTHON_VERSION=3.7.0-stretch
+ARG PYTHON_VERSION=python:3.7.1-stretch
 
 FROM python:$PYTHON_VERSION
 
